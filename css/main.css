@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'ArnhemPro';
+    src: url(../fonts/ArnhemPro-Blond.woff);
+}
+
+.container {
+    padding: 44px 16%;
+}
+
+h1,
+h2,
+h3 {
+    margin: 12px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #222;
+    font-family: 'ArnhemPro';
+    margin: 16px 0;
+}
+
+img {
+    max-width: 100%
+}
+
+/* start code */
+pre[class*=language-] {
+    display: block;
+    padding: 1.5rem;
+    overflow: auto;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, .1);
+}
+
+code[class*=language-] {
+    color: #d2d0c9;
+    text-shadow: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+code[class*=language-scss] {
+    color: #c9c;
+}
+
+.token.cdata,
+.token.comment,
+.token.prolog {
+    color: #8a8a80;
+}
+
+.token.variable {
+    color: #f2777a;
+}
+
+.token.punctuation {
+    color: #d2d0c9;
+}
+
+.token.keyword {
+    color: #ffeead;
+}
+
+.token.function {
+    color: #76d4d6;
+}
+
+.token.selector {
+    color: #ffd479;
+}
+
+.token.boolean,
+.token.constant,
+.token.entity,
+.token.inserted,
+.token.number,
+.token.regex,
+.token.symbol,
+.token.url {
+    color: #fca369;
+}
+
+.token.property {
+    color: #d2d0c9;
+}
+
+/* end code */
+
+/* start table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(60, 60, 60, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+table td {
+    text-align: center
+}
+
+table thead {
+    color: #fff
+}
+
+table thead tr {
+    height: 48px;
+    background: #607D8B;
+}
+
+table tbody tr {
+    height: 50px;
+    color: #444;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* end table */
+
+.page-break {
+    text-align: center;
+    position: relative;
+    color: #aaa;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.page-break:before {
+    content: '';
+    height: 0;
+    width: 140px;
+    border-top: 1px solid #bbb;
+    position: absolute;
+    right: 100%;
+    top: 9px;
+    margin-right: 20px;
+}
+
+.page-break:after {
+    content: '';
+    height: 0;
+    width: 140px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    left: 100%;
+    top: 9px;
+    margin-left: 20px;
+}
+
+@media print {
+    .new-page {
+        page-break-before: always;
+    }
+    .page-break {
+        display: none;
+    }
+}
