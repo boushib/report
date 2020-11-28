@@ -1,1 +1,3 @@
-# Simple report template, optimzied for print
+# Report
+
+Simple HTML report template, optimzied for print.

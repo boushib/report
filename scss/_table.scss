@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(60, 60, 60, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+table td {
+  text-align: center;
+}
+
+table thead {
+  color: #fff;
+}
+
+table thead tr {
+  height: 48px;
+  background: #607d8b;
+}
+
+table tbody tr {
+  height: 50px;
+  color: #444;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}

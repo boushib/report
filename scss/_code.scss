@@ -1,0 +1,62 @@
+pre[class*="language-"] {
+  display: block;
+  padding: 1.5rem;
+  overflow: auto;
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+code[class*="language-"] {
+  color: #d2d0c9;
+  text-shadow: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
+code[class*="language-scss"] {
+  color: #c9c;
+}
+
+.token {
+  &.cdata,
+  &.comment,
+  &.prolog {
+    color: #8a8a80;
+  }
+
+  &.variable {
+    color: #f2777a;
+  }
+
+  &.punctuation {
+    color: #d2d0c9;
+  }
+
+  &.keyword {
+    color: #ffeead;
+  }
+
+  &.function {
+    color: #76d4d6;
+  }
+
+  &.selector {
+    color: #ffd479;
+  }
+
+  &.boolean,
+  &.constant,
+  &.entity,
+  &.inserted,
+  &.number,
+  &.regex,
+  &.symbol,
+  &.url {
+    color: #fca369;
+  }
+
+  &.property {
+    color: #d2d0c9;
+  }
+}
