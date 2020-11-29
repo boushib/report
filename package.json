@@ -1,0 +1,9 @@
+{
+  "name": "report",
+  "version": "1.0.0",
+  "description": "a lightweight HTML report optimized for print",
+  "main": "app.js",
+  "repository": "https://github.com/boushib/report.git",
+  "author": "boushib <boushib01@gmail.com>",
+  "license": "MIT"
+}
